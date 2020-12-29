@@ -2,27 +2,59 @@
 <head>
     <title>Aarav's Webpage</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
+    <div class="container">
     <section id="app">
         <h1>Apps</h1>
         <div class="line"></div>
         <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/zgYHH7Fmi_GuO0xqabqGfly9p8TFENaD3RhDwJkpatE/embed"></iframe>
         <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/kDcz607ZhEQziiGKEp8tcTWAOy9Mik6Vp8DVr-9Cct4/embed"></iframe>
     </section>
-    <section id="games">
-        <h1>Games</h1>
-        <div class="line"></div>
-        <a href="https://studio.code.org/projects/spritelab/aEvWZ8M1In33ZeFm1bx-Kq-46QQOMIeL33FyOvF7ZJ8/edit" target="_blank">
+        
+        <h2>Click on games to explore</h2>
+        <h5>These games are built in game lab</h5>
+        
+        <div id="myCarousel" class="carousel_slide">
+        <div class="carousel-inner">
+            <div class="item active">
+            <center>
+              <a href="https://studio.code.org/projects/spritelab/aEvWZ8M1In33ZeFm1bx-Kq-46QQOMIeL33FyOvF7ZJ8/edit" target="_blank">
             <img src="download%20copy.png">
 
         </a>
-        <a href="https://studio.code.org/projects/spritelab/7mWiNpUt1hKGr9tP7nLUWo0-HHodRQ3_QCH6-f37hTo/edit" target="_blank">
+                <div class="carousel-content">
+                <p>Hungry-Boy</p>
+                </div>
+                
+            </center>
+                
+            </div>
+            <div class="item">
+            <center>
+               <a href="https://studio.code.org/projects/spritelab/7mWiNpUt1hKGr9tP7nLUWo0-HHodRQ3_QCH6-f37hTo/edit" target="_blank">
             <img src="download%20(1).png">
 
         </a>
-    </section>
+                <div class="carousel-content">
+                <p>Collect the coins</p>
+                </div>
+                </center>
+            </div>
+            </div>
+            
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        
+            </a>
+            
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+    
     <section id="chatbot">
         <h1>Chatbot</h1>
         <div class="line"></div>
@@ -31,6 +63,7 @@
 
 
     </section>
+</div>
 
-
-</body></html>
+</body>
+</html>

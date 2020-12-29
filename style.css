@@ -1,12 +1,7 @@
-body {
+.container {
     text-align: center;
 }
 
-h1 {
-    font-size: 40px;
-    font-family: cursive;
-    font-weight: 300;
-}
 
 #app {
     width: 100%;
@@ -14,10 +9,18 @@ h1 {
     background-color: darkblue;
 }
 
-#games {
-    width: 100%;
-    height: 800px;
-    background-color: cadetblue;
+#myCarousel{
+    background-color: red;
+}
+#myCarousel img{
+    height: 300px;
+    margin-top: 35px;
+}
+.carousel-inner p{
+   margin-bottom: 15px;
+   margin-top: 15px;
+   color: white;
+    font-size: 20px;
 }
 
 #chatbot {
@@ -26,13 +29,7 @@ h1 {
     background-color: darkmagenta;
 }
 
-img {
-    transition: transform .2s;
-}
 
-img:hover {
-    transform: scale(0.9);
-}
 
 .line {
     height: 6px;
